@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "WinUi.UnitTestExperiment.ClassLibrary.AppUi (Package)": {
+      "commandName": "MsixPackage"
+    },
+    "WinUi.UnitTestExperiment.ClassLibrary.AppUi (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}
