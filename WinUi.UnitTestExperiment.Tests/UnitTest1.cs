@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using WinUi.UnitTestExperiment.AppUi;
 
 namespace WinUi.UnitTestExperiment.Tests
 {
@@ -13,7 +14,9 @@ namespace WinUi.UnitTestExperiment.Tests
         [TestMethod]
         public void TestMethod1()
         {
-            Assert.AreEqual(0, 0);
+            var sut = new TestViewModel();
+
+            Assert.IsTrue(sut.GetValue(true));
         }
     }
 }
